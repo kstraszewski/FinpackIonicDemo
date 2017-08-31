@@ -17,6 +17,7 @@ import {AnimationEventEmitter} from "../services/animationEventEmitter";
 import { SlideComponent } from './slide/slide';
 import 'rxjs/Rx'
 import {EmailSender} from "../services/emailSender";
+import {HttpModule} from "@angular/http";
 
 @NgModule({
 	declarations: [
@@ -36,7 +37,8 @@ import {EmailSender} from "../services/emailSender";
 	imports: [
     BrowserModule,
     IonicModule,
-    SwiperModule
+    SwiperModule,
+    HttpModule
 
   ],
   providers:[
