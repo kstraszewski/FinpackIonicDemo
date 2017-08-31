@@ -13,6 +13,7 @@ $app-direction: ltr;
 
 
 @import "ionic.globals";
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,500');
 
 
 // Shared Variables
@@ -34,15 +35,157 @@ $app-direction: ltr;
 // The "primary" color is the only required color in the map.
 
 $colors: (
-  primary:    #488aff,
+  primary:    #00a562,
   secondary:  #32db64,
   danger:     #f53d3d,
   light:      #f4f4f4,
   dark:       #222
 );
 
+/* Color palette */
 
-// App iOS Variables
+$greyish-brown: #414040;
+$brownish-grey: #666666;
+$greyish-brown-two: #595959;
+$dark-pink: #c1375a;
+$light-burgundy: #992c47;
+$black-35: rgba(0, 0, 0, 0.35);
+$warm-grey: #999999;
+$white-85: rgba(255, 255, 255, 0.85);
+$light-grey: #fefefe;
+$pale-teal: #9cd4b9;
+$white: #ffffff;
+$white-25: rgba(243, 241, 239, 0.25);
+$white-two: #f3f1f0;
+$white-three: #efeae7;
+$emerald: #00a562;
+
+
+/* Text styles */
+
+.HeroHeader {
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 1.33;
+  text-align: right;
+  color: $greyish-brown;
+}
+
+.Header-1 {
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.11;
+  text-align: center;
+  color: $brownish-grey;
+}
+
+.DoradcyNazwisko {
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.25;
+  text-align: left;
+  color: $brownish-grey;
+}
+
+.HeroSubtitle {
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 1;
+  text-align: right;
+  color: $brownish-grey;
+}
+
+.CTAHeading {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.33;
+  text-align: center;
+  color: $greyish-brown;
+}
+
+.ReferencjeOpis {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.33;
+  text-align: left;
+  color: $greyish-brown;
+}
+
+.DoradcyMiasto {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5;
+  text-align: left;
+  color: $greyish-brown-two;
+}
+
+.ReferencjeAutor {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 2;
+  text-align: left;
+  color: $warm-grey;
+}
+
+.UIInputPlaceholder {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 1.64;
+  text-align: left;
+  color: $warm-grey;
+}
+
+.UIButton {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+  color: $white;
+}
+
+.UIButtonWhite {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+  color: $warm-grey;
+}
+
+.UIButtonGreen {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1.23;
+  text-align: center;
+  color: $emerald;
+}
+
+.UIFooter {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.85;
+  text-align: left;
+  color: $warm-grey;
+}
+
+.HeaderPhone {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 300;
+  text-align: left;
+  color: $white;
+}
+
+  // App iOS Variables
 // --------------------------------------------------
 // iOS only Sass variables can go here
 

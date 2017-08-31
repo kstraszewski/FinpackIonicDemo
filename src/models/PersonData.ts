@@ -1,6 +1,7 @@
-export interface StatisticCard{
-  HeaderNumber: number;
-  FirstText:string;
-  SecondText:string;
-  isMln:boolean;
+export interface PersonData{
+  Name:string;
+  City: string;
+  Reference: string;
+  Description:string;
+  PhotoUrl: string;
 }
