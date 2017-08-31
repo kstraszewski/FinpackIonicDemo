@@ -1,0 +1,45 @@
+person-card {
+  a{
+    cursor: pointer;
+    text-decoration:none
+  }
+  img{
+    display: block;
+    margin: 0 auto;
+    height: 350px !important;
+  }
+  ion-grid{
+    padding: 40px;
+  }
+  .name{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.25;
+    text-align: left;
+    color: $brownish-grey;
+  }
+
+  .city{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align: left;
+    color: $greyish-brown-two;
+  }
+
+  .reference{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align: left;
+    color: $emerald;
+  }
+
+  .description{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align: left;
+    color: $greyish-brown-two;
+  }
+}

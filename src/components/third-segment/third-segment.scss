@@ -1,0 +1,39 @@
+third-segment {
+  .header{
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.11;
+    text-align: left;
+    color: $brownish-grey;
+  }
+
+  .description{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align: left;
+    color: $greyish-brown-two;
+  }
+
+  .button-burgundy{
+    width: 302px;
+    height: 48px;
+    border-radius: 2px;
+    background-image: linear-gradient(to bottom, $dark-pink, $light-burgundy);
+    box-shadow: 0 2px 4px 0 $black-35, 0 2px 4px 0 $black-35;
+  }
+
+  .final-text{
+    font-size: 24px;
+    margin-left: 27%;
+    margin-right: 27%;
+    @media screen and (max-width: 500px) {
+      margin-left: 0%;
+      margin-right: 0%;
+    }
+    font-weight: 300;
+    line-height: 1.33;
+    text-align: center;
+    color: $greyish-brown;
+  }
+}

@@ -1,0 +1,56 @@
+<div>
+<p class="form-title">{{SegmentContent.Form.Title}}</p>
+  <div class="center">
+
+    <!--Nie istnieje jeszcze w pełni działąjąca biblioteka do Slicka pod Angular2/Ionic2,
+    więc byłem zmuszony skozystać z czystego js-a,
+    również biblioteka crashuje się podczas użycia ngFor :/-->
+
+    <div><person-card [PersonContent]="SegmentContent.SwiperData[0]"></person-card></div>
+    <div><person-card [PersonContent]="SegmentContent.SwiperData[1]"></person-card></div>
+    <div><person-card [PersonContent]="SegmentContent.SwiperData[2]"></person-card></div>
+    <div><person-card [PersonContent]="SegmentContent.SwiperData[3]"></person-card></div>
+    <div><person-card [PersonContent]="SegmentContent.SwiperData[4]"></person-card></div>
+    <div><person-card [PersonContent]="SegmentContent.SwiperData[5]"></person-card></div>
+    <div><person-card [PersonContent]="SegmentContent.SwiperData[6]"></person-card></div>
+    <div><person-card [PersonContent]="SegmentContent.SwiperData[7]"></person-card></div>
+    <div><person-card [PersonContent]="SegmentContent.SwiperData[8]"></person-card></div>
+  </div>
+
+  <ion-grid no-padding>
+    <ion-row>
+      <ion-slides [autoplay]="2000" [pager]="true" loop="true">
+        <ion-slide>
+          <slide></slide>
+        </ion-slide>
+        <ion-slide>
+          <slide></slide>
+        </ion-slide>
+        <ion-slide>
+          <slide></slide>
+        </ion-slide>
+      </ion-slides>
+    </ion-row>
+
+    <ion-row></ion-row>
+    <span class="segment-footer">
+      <ion-row>
+        <ion-col class="form-title">{{SegmentContent.Form.Title}}</ion-col>
+      </ion-row>
+      <ion-row class="form" col-12 style="padding-bottom: 40px">
+            <ion-col col-md-3 col-sm-12>
+              <input [placeholder]="SegmentContent.Form.Placeholders.Name">
+            </ion-col>
+            <ion-col col-md-3 col-sm-12>
+              <input [placeholder]="SegmentContent.Form.Placeholders.PhoneNumber">
+            </ion-col>
+            <ion-col col-md-3 col-sm-12>
+              <input [placeholder]="SegmentContent.Form.Placeholders.Email">
+            </ion-col>
+            <ion-col col-md-3 col-sm-12>
+              <button ion-button class="submit-button"><span class="submit-button-text">{{SegmentContent.Form.SubmitButton}}</span></button>
+            </ion-col>
+      </ion-row>
+    </span>
+  </ion-grid>
+</div>

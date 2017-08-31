@@ -1,0 +1,28 @@
+slide {
+  .title{
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.11;
+    text-align: center;
+    color: $brownish-grey;
+  }
+  .description{
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.33;
+    text-align: left;
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
+    color: $greyish-brown;
+  }
+  .nameAndCity{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 2;
+    margin-top: -15px;
+    margin-left: 15%;
+    text-align: left;
+    color: $warm-grey;
+  }
+}

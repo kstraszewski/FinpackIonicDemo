@@ -4,4 +4,5 @@ export interface PersonData{
   Reference: string;
   Description:string;
   PhotoUrl: string;
+  Link:string
 }

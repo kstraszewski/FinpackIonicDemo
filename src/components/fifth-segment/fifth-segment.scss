@@ -1,0 +1,39 @@
+fifth-segment {
+  .photo-content {
+    bottom: 20px;
+    padding-left: 7%;;
+    padding-right: 7%;
+  }
+  .Rectangle-5 {
+    background-image: url("../../assets/gpw.jpg");
+    height: 648px;
+  }
+
+  .container {
+    display: flex;
+    align-items: flex-end;
+  }
+  .title {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.33;
+    text-align: center;
+    color: $white;
+  }
+
+  .description {
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 1;
+    opacity: 0.75;
+    text-align: center;
+    color: $white;
+  }
+
+  .footer {
+    height: 89px;
+    background-color: $white-three;
+  }
+
+
+}

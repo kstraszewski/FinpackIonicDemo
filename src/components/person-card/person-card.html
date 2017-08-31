@@ -1,0 +1,23 @@
+<div>
+  <ion-grid>
+    <ion-row>
+      <img fixed [src]="PersonContent.PhotoUrl">
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <a class="name" target="_blank" [href]="PersonContent.Link">{{PersonContent.Name}}</a>
+        <a class="city" target="_blank" [href]="PersonContent.Link">{{PersonContent.City}}</a>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <span class="reference">{{PersonContent.Reference}}</span>
+    </ion-row>
+    <ion-row>
+      <span class="description">
+        {{PersonContent.Description}}
+      </span>
+    </ion-row>
+  </ion-grid>
+</div>
+
+

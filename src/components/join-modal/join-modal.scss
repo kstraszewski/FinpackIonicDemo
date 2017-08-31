@@ -1,0 +1,64 @@
+join-modal {
+
+  .background{
+    background-image: linear-gradient(to bottom, $dark-pink, $light-burgundy);
+
+  }
+
+  ion-icon{
+    color: $warm-grey;
+    margin-left: 7px;
+    margin-top: 7px;
+    cursor: pointer;
+  }
+
+  input{
+    height: 40px;
+    width: 100%;
+    border-radius: 2px;
+    background-color: $white;
+    border: solid 1px #e5e5e5;
+    margin: 23px;
+  }
+
+  .submit-button{
+    height: 40px;
+    width: 100%;
+    margin: 23px;
+    border-radius: 4px;
+    background-image: linear-gradient(to bottom, $white, $white-three);
+    box-shadow: 0 2px 4px 0 $black-35;
+  }
+
+  .submit-button-text{
+    color: $warm-grey;
+  }
+
+  .form-title{
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.11;
+    text-align: center;
+    color: $white;
+  }
+
+  *::-webkit-input-placeholder {
+    padding-left: 15px;
+  }
+  *:-moz-placeholder {
+    /* FF 4-18 */
+    padding-left: 15px;
+  }
+  *::-moz-placeholder {
+    /* FF 19+ */
+    padding-left: 15px;
+  }
+  *:-ms-input-placeholder {
+    /* IE 10+ */
+    padding-left: 15px;
+  }
+  ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+  }
+}

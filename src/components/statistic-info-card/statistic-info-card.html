@@ -1,0 +1,20 @@
+<ion-row>
+  <ion-col class="headerNumber">
+    <div counto
+         [step]="80"
+         [countTo]="CountTo"
+         (countoChange)="StatisticCardData.HeaderNumber = $event"
+         [countFrom]="0"
+         [duration]="1.5">
+      <span *ngIf="StatisticCardData.isMln">{{StatisticCardData.HeaderNumber| number:'1.1-1'}} mln</span>
+      <span *ngIf="!StatisticCardData.isMln">{{StatisticCardData.HeaderNumber| number:'1.0-0'}}</span>
+    </div>
+  </ion-col>
+</ion-row>
+<ion-row>
+  <ion-col class="firstText">{{StatisticCardData.FirstText}}</ion-col>
+</ion-row>
+<ion-row>
+  <ion-col class="secondText">{{StatisticCardData.SecondText}}</ion-col>
+</ion-row>
+

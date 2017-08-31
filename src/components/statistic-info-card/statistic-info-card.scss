@@ -1,0 +1,21 @@
+statistic-info-card {
+  text-align: center;
+  .headerNumber{
+    font-size: 80px;
+    font-weight: 300;
+    letter-spacing: -1.7px;
+    color: $emerald;
+  }
+  .firstText{
+    font-size: 24px;
+    color: $emerald;
+    line-height: 1.67;
+    font-weight: 300;
+  }
+  .secondText{
+    font-size: 16px;
+    color: $greyish-brown-two;
+    line-height: 1.5;
+    font-weight: 300;
+  }
+}

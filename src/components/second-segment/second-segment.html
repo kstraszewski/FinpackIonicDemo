@@ -1,0 +1,10 @@
+<div>
+  <p class="header-segment2">Zapewnij sobie dostęp do pewnego źródła klientów</p>
+  <ion-grid>
+    <ion-row>
+      <ion-col *ngFor="let statisticCardData of SegmentContent.StatisticCards">
+        <statistic-info-card [StatisticCardData]="statisticCardData"></statistic-info-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</div>

@@ -1,0 +1,33 @@
+first-segment {
+  .layer {
+    height: 681px;
+    background-color: #007aff;
+    padding-top: 18%;
+  }
+
+  .Rectangle-5 {
+    width: 80%;
+    margin-left: 10%;
+
+  }
+
+  .large-header-p1 {
+    font-size: 42px;
+    text-align: right !important;
+    color: $greyish-brown;
+  }
+
+  .small-header-p1 {
+    font-size: 28px;
+    font-weight: 300;
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(141,141,141);
+    text-shadow: 0 0 20px $white, 0 0 20px $white, 0 0 16px $white, 0 0 8px $white, 0 0 8px $white;
+  }
+  .span-color-wrapper{
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: $white-85;
+  }
+}

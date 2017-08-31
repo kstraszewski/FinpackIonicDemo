@@ -1,0 +1,30 @@
+header {
+  img{
+    height: 24px;
+  }
+  .Rectangle-7 {
+    width: 125px;
+    height: 32px;
+    border-radius: 4px;
+    margin-right: 4%;
+    @media screen and (max-width: 500px) {
+      margin-right: 0px;
+    }
+    background-image: linear-gradient(to bottom, $white, $white-three);
+    box-shadow: 0 2px 4px 0 $black-35;
+  }
+  .join-button {
+    width: 125px;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 1.23;
+    text-align: center;
+    color: $emerald;
+  }
+  .phone-number{
+    font-size: 13px;
+    font-weight: 300;
+    color: $white;
+  }
+
+}

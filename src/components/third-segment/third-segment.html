@@ -1,0 +1,38 @@
+<div no-padding (scroll)="log($event)">
+  <ion-grid>
+    <ion-row>
+      <ion-col col-md-6 col-sm-12 style="height: max-content">
+        <div style="padding: 7% 8% 7% 7%;">
+          <p class="header">{{SegmentContent.FirstPhotoData.Header}}</p>
+          <p class="description">{{SegmentContent.FirstPhotoData.Descritpion}}</p>
+          <button ion-button (click)="openJoinModal(JoinUsModalTitleSufix.SYSTEM)" class="button-burgundy">{{SegmentContent.FirstPhotoData.ButtonText}}</button>
+        </div>
+      </ion-col>
+      <ion-col col-md-6 col-sm-12>
+        <div [ngClass]="{'animated':true, 'bounceInRight': StartAnimationFlag}" [hidden]="!StartAnimationFlag">
+          <img style="width: 100%" no-padding src="./assets/third-segment/comparison@2x.jpg">
+        </div>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-md-6 col-sm-12>
+        <div [ngClass]="{'animated':true, 'bounceInLeft': StartAnimationFlag}" [hidden]="!StartAnimationFlag">
+          <img style="width: 100%" no-padding src="./assets/third-segment/ilustracja-stawki-v-3@2x.png">
+        </div>
+      </ion-col>
+      <ion-col col-md-6 col-sm-12 style="height: max-content">
+        <div style="padding: 1% 10% 1% 12%;">
+          <p class="header">{{SegmentContent.SecondPhotoData.Header}}</p>
+          <p class="description">{{SegmentContent.SecondPhotoData.Descritpion}}</p>
+          <button ion-button (click)="openJoinModal(JoinUsModalTitleSufix.COMMISION)" class="button-burgundy">{{SegmentContent.SecondPhotoData.ButtonText}}</button>
+        </div>
+      </ion-col>
+    </ion-row>
+    <ion-row align-items-center>
+        <ion-col align-self-center class="final-text">
+          <p>{{SegmentContent.FinalData.Text}}</p>
+          <button ion-button class="button-burgundy" (click)="openJoinModal(JoinUsModalTitleSufix.SYSTEM)">{{SegmentContent.FinalData.ButtonText}}</button>
+        </ion-col>
+    </ion-row>
+  </ion-grid>
+</div>

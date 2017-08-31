@@ -1,0 +1,22 @@
+<ion-content class="background">
+
+  <ion-grid>
+    <ion-row>
+      <ion-icon name="close" (click)="close()" style="float: right; margin-right: 10px"></ion-icon>
+
+    </ion-row>
+    <ion-row>
+      <ion-col class="form-title">
+        {{ModalContent.Title}}{{TitleSufix}}
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <input [placeholder]="ModalContent.Placeholders.Name">
+      <input [placeholder]="ModalContent.Placeholders.PhoneNumber">
+      <input [placeholder]="ModalContent.Placeholders.Email">
+      <button ion-button class="submit-button">
+        <span class="submit-button-text" (click)="close()">{{ModalContent.SubmitButton}}</span>
+      </button>
+    </ion-row>
+  </ion-grid>
+</ion-content>
