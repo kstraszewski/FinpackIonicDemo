@@ -57,12 +57,43 @@ export const PeopleData: PersonData[] = [
     PhotoUrl:'./assets/6-sebastian-bydgoszcz.jpg',
     Reference: 'Zapytaj Sebastiana o referencje',
     Description:'Od ponad 9 lat zajmuję się pośrednictwem finansowym. Doświadczenie zdobywałem pracując w wiodących bankach oraz firmach doradztwa finansowego. Cel jaki sobie stawiam to pomóc Wam w znalezieniu najlepszego rozwiązania. Każdego Klienta traktuje indywidualnie koncentrując się na jego potrzebach. Dokładna analiza finansowa Twojej sytuacji jest kluczem do sukcesu. Przez te lata pracy zaufało mi setki Klientów indywidualnych i dziesiątki firm powierzając mi swoje finanse.'
-  }
-]
+  },
+  {
+    Name:'Ryszard',
+    City: 'Szczecin',
+    PhotoUrl:'./assets/7-ryszard-szczecin.jpg',
+    Reference: 'Zapytaj Ryszarda o referencje',
+    Description:'Od 2008 roku pracuję w branży finansowej. Moim głównym zakresem działalności jest pomoc w uzyskaniu kredytu. Podczas całej kariery zaufało mi już setki zadowolonych klientów indywidualnych, wiele biur nieruchomości oraz deweloperów, z którymi współpracuję. W swojej pracy zajmuję się również szkoleniem specjalistów kredytowych, pośredników i zarządców nieruchomości w zakresie procedur bankowych związanych z udzielaniem kredytów hipotecznych. Wiedza ekonomiczna oraz produktowa zdobyta podczas studiów wyższych oraz licznych szkoleń przeprowadzanych przez instytucje finansowe zapewnia odpowiednie przygotowanie by sprostać wszelkim oczekiwaniom klientów.'
+  },
+  {
+    Name:'Michał',
+    City: 'Katowice',
+    PhotoUrl:'./assets/8-michal-katowice.jpg',
+    Reference: 'Zapytaj Michała o referencje',
+    Description:'Pracuję jako ekspert finansowy od 2006 roku. W przeciągu tych lat rozwijałem swoją wiedzę w branży finansowej w wielu aspektach. Dzieki kompleksowemu podejściu i szerokiej ofercie nie mam klientów, tylko partnerów z którymi pracuję. Dzięki niezależności jaką daje mi mój zawód mam możliwość dopasować rozwiązanie do klienta, zamiast jak to ma miejsce w bankach, klienta do rozwiązania. Moje doświadczenie sprawia, że już podczas pierwszej rozmowy omawiam możliwe scenariusze i rodzaj finansowania. \n'
+  },
+  {
+    Name:'Piotr',
+    City: 'Gdańsk',
+    PhotoUrl:'./assets/9-piotrek-gdansk.jpg',
+    Reference: 'Zapytaj Piotra o referencje',
+    Description:'"Jako ekspert finansowy od 11 lat pomagam moim kilentom pozyskiwać wybrane nieruchomości. W tym czasie ponad 650 osób stało się szczęśliwymi posiadaczami domów i mieszkań przy moim udziale. Wsłuchuję się uważnie w oczekiwania moich klientów i znajduję oferty im odpowiadające. Prowadzę klientów przez cały proces wykorzystując wypracowane przez lata najlepsze kontakty w bankach, Wiedza i doświadczenie dają mi przewagę, dzięki której działam skutecznie i szybko. Zależy mi na opinii moich klientów, także dlatego, że są oni dla mnie najlepszym źródłem kolejnych poleceń."\n'
+  },
+  {
+    Name:'Michał',
+    City: 'Opole',
+    PhotoUrl:'./assets/10-michal-wroclaw.JPG',
+    Reference: 'Zapytaj Ryszarda o referencje',
+    Description:'Klienci mówią, że jestem człowiekiem od zadań specjalnych, i że nie ma dla mnie rzeczy niemożliwych. W swojej pracy staram się wychodzić poza sztywne ramy bankowych procedur. Dzięki temu udaje mi się znaleźć możliwości finansowania tam, gdzie inni pośrednicy załamują ręce.\n'
+  },
+];
 
 export const ContentData = {
   Header: {},
-  FirstSegment: {},
+  FirstSegment: {
+    Title:'Zarabiaj nawet 3x więcej na pośrednictwie kredytowym',
+    Description: 'Dołącz do najszybciej rozwijającej się grupy ekspertów finansowych w Polsce.'
+  },
   SecondSegment: {
     StatisticCards: StatisticCards
   },

@@ -24,13 +24,10 @@ export class MyApp {
   }
 
   ngAfterViewInit() {
-    console.log(this.thirdElement.nativeElement.offsetTop)
     this.content.ionScroll.subscribe((data) => {
       let distance = this.thirdElement.nativeElement.offsetTop - data['scrollTop']
-      console.log(distance);
 
       if (distance < 500 && !this.animationInitializer) {
-        console.log('start');
         this.animationInitializer = false;
         this.animationEmitter.emit(EventKeys.THIRD_SEGMENT_ANIMATION);
       }
