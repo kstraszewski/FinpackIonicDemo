@@ -15,6 +15,8 @@ import {SwiperModule} from "angular2-useful-swiper";
 import {TrackScrollDirective} from "./directives/scroll-to.directive";
 import {AnimationEventEmitter} from "../services/animationEventEmitter";
 import { SlideComponent } from './slide/slide';
+import 'rxjs/Rx'
+import {EmailSender} from "../services/emailSender";
 
 @NgModule({
 	declarations: [
@@ -39,6 +41,7 @@ import { SlideComponent } from './slide/slide';
   ],
   providers:[
     AnimationEventEmitter,
+    EmailSender
   ],
 	exports: [
 	  HeaderComponent,

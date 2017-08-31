@@ -106,7 +106,10 @@ export const PeopleData: PersonData[] = [
 ];
 
 export const ContentData = {
-  Header: {},
+  Header: {
+    PhoneNumber:'+48 503 451 221',
+    JoinUs:'Dołącz do nas'
+  },
   FirstSegment: {
     Title:'Zarabiaj nawet 3x więcej na pośrednictwie kredytowym',
     Description: 'Dołącz do najszybciej rozwijającej się grupy ekspertów finansowych w Polsce.'

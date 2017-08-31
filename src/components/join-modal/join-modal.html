@@ -11,11 +11,11 @@
       </ion-col>
     </ion-row>
     <ion-row>
-      <input [placeholder]="ModalContent.Placeholders.Name">
-      <input [placeholder]="ModalContent.Placeholders.PhoneNumber">
-      <input [placeholder]="ModalContent.Placeholders.Email">
+      <input [(ngModel)]="FormModel.Name" [placeholder]="ModalContent.Placeholders.Name">
+      <input [(ngModel)]="FormModel.PhoneNumber" [placeholder]="ModalContent.Placeholders.PhoneNumber">
+      <input [(ngModel)]="FormModel.Email" [placeholder]="ModalContent.Placeholders.Email">
       <button ion-button class="submit-button">
-        <span class="submit-button-text" (click)="close()">{{ModalContent.SubmitButton}}</span>
+        <span class="submit-button-text" (click)="sendEmail()">{{ModalContent.SubmitButton}}</span>
       </button>
     </ion-row>
   </ion-grid>

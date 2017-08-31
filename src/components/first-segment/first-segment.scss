@@ -1,8 +1,13 @@
 first-segment {
   .layer {
-    height: 681px;
-    background-color: #007aff;
+    height: 100%;
+    background-image: url("../../assets/photo.png");
     padding-top: 18%;
+    @media screen and (min-width: 500px) {
+      background-size: 100%;
+    }
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
   .Rectangle-5 {

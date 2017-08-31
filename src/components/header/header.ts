@@ -2,6 +2,7 @@ import {Component} from '@angular/core';
 import {ModalController} from "ionic-angular";
 import {JoinModalComponent} from "../join-modal/join-modal";
 import {JoinUsModalTitleSufix} from "../../data/JoinUsModalTitleSufix";
+import {ContentData} from "../../data/Content";
 
 /**
  * Generated class for the HeaderComponent component.
@@ -14,6 +15,8 @@ import {JoinUsModalTitleSufix} from "../../data/JoinUsModalTitleSufix";
   templateUrl: 'header.html'
 })
 export class HeaderComponent {
+
+  private HeaderContent = ContentData.Header;
 
   constructor(private modalCtrl: ModalController) {
   }
